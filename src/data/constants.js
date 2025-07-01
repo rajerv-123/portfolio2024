@@ -1,4 +1,9 @@
 import Afri from "../data/afri.png";
+import amChat from "../../src/images/AMChat.png";
+import w1 from "../../src/images/w-1.png";
+import ss from  "../../src/images/Screenshot (1202).png";
+
+import w2 from "../../src/images/w-2.png";
 export const Bio = {
   name: "Rajeev Patel",
   roles: ["React JS Developer"],
@@ -180,10 +185,16 @@ export const projects = [
     date: "Mar 2023 - Dec 2023",
     description:
       "Developed an educational website using React.js that serves as a Learning Management System...",
-    image:
-      "https://drive.google.com/uc?export=view&id=10bogUT2RGKSELJMhDzoxtCbtnLOZp9OM",
+    image: ss,
     tags: [
-      "React Js", "Next.js", "Javascript", "Bootstrap", "Redux", "RESTful APIs", "HTML5", "CSS3"
+      "React Js",
+      "Next.js",
+      "Javascript",
+      "Bootstrap",
+      "Redux",
+      "RESTful APIs",
+      "HTML5",
+      "CSS3",
     ],
     category: "web app",
     webapp: "https://podstream.netlify.app/",
@@ -194,8 +205,7 @@ export const projects = [
     date: "Dec 2023 - Present",
     description:
       "AM Chat AI: a smart chat app that makes communication easy and efficient...",
-    image:
-      "https://drive.google.com/uc?export=view&id=1GSYT3PmfiDS_7wlUVOhQRZFwYaSOzMFa",
+    image: amChat,
     tags: ["React Js", "TypeScript", "CSS", "HTML", "Redux", "JavaScript"],
     category: "web app",
   },
@@ -205,15 +215,13 @@ export const projects = [
     date: "Jun 2021",
     description:
       "A comprehensive weather application providing real-time weather data...",
-    image:
-      "https://drive.google.com/uc?export=view&id=131V_LxhVpmrbe1fwUGmICo5Hv-Gm-9rO",
+    image: w1,
     tags: ["React Js", "API", "Axios", "Node JS"],
     category: "web app",
     github: "https://github.com/rishavchanda/Breaking-Bad",
     webapp: "https://breaking-bad-webapp.netlify.app",
   },
 ];
-
 
 export const TimeLineData = [
   { year: 2017, text: "Started my journey" },

@@ -103,7 +103,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.linkedin} target="display"><InstagramIcon /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2024  All rights reserved.
+          &copy; 2025  All rights reserved.
         </Copyright>
 
       </FooterWrapper>
